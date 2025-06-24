@@ -112,6 +112,13 @@
   <ImyaExpose Path="self::Limit" ModOpID="SetEnbesaHF" ExposeID="[Enbesa] Hibiscus Farm (fields)" Description="Amount of fields you need for full production." Kind="Slider">
     <SliderDefinition Min="1" Max="500" Stepping="1" />
   </ImyaExpose>
+  <!-- [Enbesa] Teff Farm -->
+  <ModOp Type="merge" GUID="114450" Path="Values/ModuleOwner/ModuleLimits/Main" ModOpID="SetEnbesaTF" Skip="1">
+    <Limit>5</Limit>
+  </ModOp>
+  <ImyaExpose Path="self::Limit" ModOpID="SetEnbesaTF" ExposeID="[Enbesa] Teff Farm (fields)" Description="Amount of fields you need for full production." Kind="Slider">
+    <SliderDefinition Min="1" Max="500" Stepping="1" />
+  </ImyaExpose>
   <!-- [Enbesa] Indigo Farm -->
   <ModOp Type="merge" GUID="114451" Path="Values/ModuleOwner/ModuleLimits/Main" ModOpID="SetEnbesaIF" Skip="1">
     <Limit>5</Limit>
