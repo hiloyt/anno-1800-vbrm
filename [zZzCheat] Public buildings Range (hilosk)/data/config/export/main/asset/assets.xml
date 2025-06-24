@@ -1,0 +1,213 @@
+<ModOps>
+  <ImyaTweaks Title="Public buildings sliders:" />
+  <!-- [OW] Marketplace -->
+  <ModOp Type="Merge" GUID="1010372" Path="Values/PublicService" ModOpID="SetOWMarketplaceNeeds" Skip="1">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="SetOWMarketplaceNeeds" ExposeID="[OW] Marketplace FULL" Description="Increasing or decreasing the FULL cover range of the [OW] Marketplace building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="SetOWMarketplaceNeeds" ExposeID="[OW] Marketplace NONE" Description="Increasing or decreasing the NONE cover range of the [OW] Marketplace building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <!-- [NW] Marketplace -->
+  <ModOp Type="Merge" GUID="101257" Path="Values/PublicService" ModOpID="SetNWMarketplaceNeeds" Skip="1">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="SetNWMarketplaceNeeds" ExposeID="[NW] Marketplace FULL" Description="Increasing or decreasing the FULL cover range of the [NW] Marketplace building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="SetNWMarketplaceNeeds" ExposeID="[NW] Marketplace NONE" Description="Increasing or decreasing the NONE cover range of the [NW] Marketplace building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <!-- [Enbesa] Marketplace -->
+  <ModOp Type="Merge" GUID="114518" Path="Values/PublicService" ModOpID="SetEnbesaMarketplaceNeeds" Skip="1">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="SetEnbesaMarketplaceNeeds" ExposeID="[Enbesa] Marketplace FULL" Description="Increasing or decreasing the FULL cover range of the [Enbesa] Marketplace building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="SetEnbesaMarketplaceNeeds" ExposeID="[Enbesa] Marketplace NONE" Description="Increasing or decreasing the NONE cover range of the [Enbesa] Marketplace building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <!-- Pub -->
+  <ModOp Type="Merge" GUID="1010358" Path="Values/PublicService" ModOpID="SetPubNeeds" Skip="1">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="SetPubNeeds" ExposeID="Pub FULL" Description="Increasing or decreasing the FULL cover range of the Pub building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="SetPubNeeds" ExposeID="Pub NONE" Description="Increasing or decreasing the NONE cover range of the Pub building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <!-- Church -->
+  <ModOp Type="Merge" GUID="1010359" Path="Values/PublicService" ModOpID="SetChurchNeeds" Skip="1">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="SetChurchNeeds" ExposeID="Church FULL" Description="Increasing or decreasing the FULL cover range of the Church building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="SetChurchNeeds" ExposeID="Church NONE" Description="Increasing or decreasing the NONE cover range of the Church building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <!-- School -->
+  <ModOp Type="Merge" GUID="1010360" Path="Values/PublicService" ModOpID="SetSchoolNeeds" Skip="1">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="SetSchoolNeeds" ExposeID="School FULL" Description="Increasing or decreasing the FULL cover range of the School building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="SetSchoolNeeds" ExposeID="School NONE" Description="Increasing or decreasing the NONE cover range of the School building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <!-- Variety Theatre -->
+  <ModOp Type="Merge" GUID="1010361" Path="Values/PublicService" ModOpID="SetVarietyTheatreNeeds" Skip="1">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="SetVarietyTheatreNeeds" ExposeID="Variety Theatre FULL" Description="Increasing or decreasing the FULL cover range of the Variety Theatre building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="SetVarietyTheatreNeeds" ExposeID="Variety Theatre NONE" Description="Increasing or decreasing the NONE cover range of the Variety Theatre building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <!-- University -->
+  <ModOp Type="Merge" GUID="1010362" Path="Values/PublicService" ModOpID="SetUniversityNeeds" Skip="1">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="SetUniversityNeeds" ExposeID="University FULL" Description="Increasing or decreasing the FULL cover range of the University building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="SetUniversityNeeds" ExposeID="University NONE" Description="Increasing or decreasing the NONE cover range of the University building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <!-- Bank -->
+  <ModOp Type="Merge" GUID="1010365" Path="Values/PublicService" ModOpID="SetBankNeeds" Skip="1">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="SetBankNeeds" ExposeID="Bank FULL" Description="Increasing or decreasing the FULL cover range of the Bank building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="SetBankNeeds" ExposeID="Bank NONE" Description="Increasing or decreasing the NONE cover range of the Bank building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <!-- Members Club -->
+  <ModOp Type="Merge" GUID="1010364" Path="Values/PublicService" ModOpID="SetMembersClubNeeds" Skip="1">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="SetMembersClubNeeds" ExposeID="Members Club FULL" Description="Increasing or decreasing the FULL cover range of the Members Club building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="SetMembersClubNeeds" ExposeID="Members Club NONE" Description="Increasing or decreasing the NONE cover range of the Members Club building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <!-- Radio Tower -->
+  <ModOp Type="Merge" GUID="118736" Path="Values/PublicService" ModOpID="SetRadioTowerNeeds" Skip="1">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="SetRadioTowerNeeds" ExposeID="Radio Tower FULL" Description="Increasing or decreasing the FULL cover range of the Radio Tower building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="SetRadioTowerNeeds" ExposeID="Radio Tower NONE" Description="Increasing or decreasing the NONE cover range of the Radio Tower building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <!-- Chapel -->
+  <ModOp Type="Merge" GUID="101258" Path="Values/PublicService" ModOpID="SetChapelNeeds" Skip="1">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="SetChapelNeeds" ExposeID="Chapel FULL" Description="Increasing or decreasing the FULL cover range of the Chapel building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="SetChapelNeeds" ExposeID="Chapel NONE" Description="Increasing or decreasing the NONE cover range of the Chapel building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <!-- Musicians’ Court -->
+  <ModOp Type="Merge" GUID="114519" Path="Values/PublicService" ModOpID="SetMusiciansCourtNeeds" Skip="1">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="SetMusiciansCourtNeeds" ExposeID="Musicians’ Court FULL" Description="Increasing or decreasing the FULL cover range of the Musicians’ Court building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="SetMusiciansCourtNeeds" ExposeID="Musicians’ Court NONE" Description="Increasing or decreasing the NONE cover range of the Musicians’ Court building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <!-- Monastery -->
+  <ModOp Type="Merge" GUID="114520" Path="Values/PublicService" ModOpID="SetMonasteryNeeds" Skip="1">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="SetMonasteryNeeds" ExposeID="Monastery FULL" Description="Increasing or decreasing the FULL cover range of the Monastery building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="SetMonasteryNeeds" ExposeID="Monastery NONE" Description="Increasing or decreasing the NONE cover range of the Monastery building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <!-- Canteen -->
+  <ModOp Type="Merge" GUID="114889" Path="Values/PublicService" ModOpID="SetCanteenNeeds" Skip="1">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="SetCanteenNeeds" ExposeID="Canteen FULL" Description="Increasing or decreasing the FULL cover range of the Canteen building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="SetCanteenNeeds" ExposeID="Canteen NONE" Description="Increasing or decreasing the NONE cover range of the Canteen building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <!-- Samba School -->
+  <ModOp Type="Merge" GUID="5840" Path="Values/BuffFactory/PublicServiceData" ModOpID="SetSambaSchoolNeeds" Skip="1">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="SetSambaSchoolNeeds" ExposeID="Samba School FULL" Description="Increasing or decreasing the FULL cover range of the Samba School building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="SetSambaSchoolNeeds" ExposeID="Samba School NONE" Description="Increasing or decreasing the NONE cover range of the Samba School building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <!-- Beach -->
+  <ModOp Type="Merge" GUID="6264" Path="Values/BuffFactory/PublicServiceData" ModOpID="SetBeachNeeds" Skip="1">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="SetBeachNeeds" ExposeID="Beach FULL" Description="Increasing or decreasing the FULL cover range of the Beach building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="SetBeachNeeds" ExposeID="Beach NONE" Description="Increasing or decreasing the NONE cover range of the Beach building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <!-- Cinema -->
+  <ModOp Type="Merge" GUID="6018" Path="Values/BuffFactory/PublicServiceData" ModOpID="SetCinemaNeeds" Skip="1">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="SetCinemaNeeds" ExposeID="Cinema FULL" Description="Increasing or decreasing the FULL cover range of the Cinema building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="SetCinemaNeeds" ExposeID="Cinema NONE" Description="Increasing or decreasing the NONE cover range of the Cinema building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <!-- Boxing Arena -->
+  <ModOp Type="Merge" GUID="101259" Path="Values/PublicService" ModOpID="SetBoxingArenaNeeds" Skip="1">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="SetBoxingArenaNeeds" ExposeID="Boxing Arena FULL" Description="Increasing or decreasing the FULL cover range of the Boxing Arena building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="SetBoxingArenaNeeds" ExposeID="Boxing Arena NONE" Description="Increasing or decreasing the NONE cover range of the Boxing Arena building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <Include File="./assets.imyatweak.include.xml" />
+</ModOps>

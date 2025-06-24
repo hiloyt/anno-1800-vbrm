@@ -1,0 +1,49 @@
+<ModOps>
+  <ImyaTweaks Title="Hunting Cabin sliders:" />
+  <!-- [OW] Hunting Cabin -->
+  <ModOp Type="merge" GUID="1010558" Path="/Values/FreeAreaProductivity" ModOpID="SetOWHC" Skip="1">
+    <NeededAreaPercent>0</NeededAreaPercent>
+    <InfluenceRadius>5</InfluenceRadius>
+  </ModOp>
+  <ImyaExpose Path="self::NeededAreaPercent" ModOpID="SetOWHC" ExposeID="[OW] Hunting Cabin (area)" Description="How much free space does the building need (0 means buildings can be next to each other, and e.g. 50 needs at least half of space between them)." Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::InfluenceRadius" ModOpID="SetOWHC" ExposeID="[OW] Hunting Cabin (radius)" Description="Increasing or decreasing the range needed for this building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="1" />
+  </ImyaExpose>
+  <!-- [Arctic] Bear Hunting Cabin -->
+  <ModOp Type="merge" GUID="112673" Path="/Values/FreeAreaProductivity" ModOpID="SetArcticBHC" Skip="1">
+    <NeededAreaPercent>0</NeededAreaPercent>
+    <InfluenceRadius>5</InfluenceRadius>
+  </ModOp>
+  <ImyaExpose Path="self::NeededAreaPercent" ModOpID="SetArcticBHC" ExposeID="[Arctic] Bear Hunting Cabin (area)" Description="How much free space does the building need (0 means buildings can be next to each other, and e.g. 50 needs at least half of space between them)." Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::InfluenceRadius" ModOpID="SetArcticBHC" ExposeID="[Arctic] Bear Hunting Cabin (radius)" Description="Increasing or decreasing the range needed for this building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="1" />
+  </ImyaExpose>
+  <!-- [Arctic] Caribou Hunting Cabin -->
+  <ModOp Type="merge" GUID="112667" Path="/Values/FreeAreaProductivity" ModOpID="SetArcticCH" Skip="1">
+    <NeededAreaPercent>0</NeededAreaPercent>
+    <InfluenceRadius>5</InfluenceRadius>
+  </ModOp>
+  <ImyaExpose Path="self::NeededAreaPercent" ModOpID="SetArcticCH" ExposeID="[Arctic] Caribou Hunting Cabin (area)" Description="How much free space does the building need (0 means buildings can be next to each other, and e.g. 50 needs at least half of space between them)." Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::InfluenceRadius" ModOpID="SetArcticCH" ExposeID="[Arctic] Caribou Hunting Cabin (radius)" Description="Increasing or decreasing the range needed for this building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="1" />
+  </ImyaExpose>
+  <!-- [Arctic] Prime Hunting Cabin -->
+  <ModOp Type="merge" GUID="116034" Path="/Values/FreeAreaProductivity" ModOpID="SetArcticPH" Skip="1">
+    <NeededAreaPercent>0</NeededAreaPercent>
+    <InfluenceRadius>5</InfluenceRadius>
+  </ModOp>
+  <ImyaExpose Path="self::NeededAreaPercent" ModOpID="SetArcticPH" ExposeID="[Arctic] Prime Hunting Cabin (area)" Description="How much free space does the building need (0 means buildings can be next to each other, and e.g. 50 needs at least half of space between them)." Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::InfluenceRadius" ModOpID="SetArcticPH" ExposeID="[Arctic] Prime Hunting Cabin (radius)" Description="Increasing or decreasing the range needed for this building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="1" />
+  </ImyaExpose>
+  <Include File="./hunting.imyatweak.include.xml" />
+  <Include File="./hunting.include.imyatweak.include.xml" />
+</ModOps>

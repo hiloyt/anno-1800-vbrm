@@ -1,0 +1,7 @@
+<ModOps>
+  <Include File="./bar.include.xml" />
+  <Include File="./bs.include.xml" />
+  <Include File="./cafe.include.xml" />
+  <Include File="./irontower.include.xml" />
+  <Include File="./restaurant.include.xml" />
+</ModOps>

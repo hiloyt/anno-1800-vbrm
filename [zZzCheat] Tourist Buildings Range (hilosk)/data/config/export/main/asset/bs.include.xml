@@ -1,0 +1,16 @@
+<ModOps>
+  <!-- Bus Stop -->
+  <ImyaTweaks Title="Bus Stop sliders:" />
+  <ModOp Type="Merge" GUID="601326" Path="Values/BusStop" ModOpID="SetBSRadius" Skip="1">
+    <ActivationRadius>50</ActivationRadius>
+    <StreetConnectionRange>150</StreetConnectionRange>
+  </ModOp>
+  <ImyaExpose Path="self::ActivationRadius" ModOpID="SetBSRadius" ExposeID="Radius" Description="Increasing or decreasing the range of the bus stop between each other." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::StreetConnectionRange" ModOpID="SetBSRadius" ExposeID="Street range" Description="Increasing or decreasing the range of the street connection from buses to hotels and other buildings." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <Include File="./bs.imyatweak.include.xml" />
+  <Include File="./bs.include.imyatweak.include.xml" />
+</ModOps>

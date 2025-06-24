@@ -1,0 +1,14 @@
+<ModOps>
+  <ModOp Path="/Values/FreeAreaProductivity" GUID="1010298" Type="merge">
+    <NeededAreaPercent>0</NeededAreaPercent>
+    <InfluenceRadius>5</InfluenceRadius>
+  </ModOp>
+  <ModOp Path="/Values/FreeAreaProductivity" GUID="24860,2396,1345" Type="merge">
+    <NeededAreaPercent>0</NeededAreaPercent>
+    <InfluenceRadius>5</InfluenceRadius>
+  </ModOp>
+  <ModOp Path="/Values/FreeAreaProductivity" GUID="114705" Type="merge">
+    <NeededAreaPercent>0</NeededAreaPercent>
+    <InfluenceRadius>5</InfluenceRadius>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,138 @@
+<ModOps>
+  <ImyaTweaks Title="Crop farms sliders:" />
+  <!-- Extra Farm Fields from the tractors buff -->
+  <ModOp Type="replace" GUID="269980" Path="/Values/ModuleOwnerUpgrade/ModuleLimitPercent" ModOpID="EFFBuff" Skip="1">
+    <ModuleLimitPercent>0</ModuleLimitPercent>
+  </ModOp>
+  <ImyaExpose Path="self::ModuleLimitPercent" ModOpID="EFFBuff" ExposeID="Extra Farm Fields from the tractors buff" Description="Amount of fields above the limit (in %) when the tractor barn is added." Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <!-- [OW][NW Hacienda] Potato Farm -->
+  <ModOp Type="merge" GUID="1010265,25019" Path="Values/ModuleOwner/ModuleLimits/Main" ModOpID="SetOWPF" Skip="1">
+    <Limit>5</Limit>
+  </ModOp>
+  <ImyaExpose Path="self::Limit" ModOpID="SetOWPF" ExposeID="[OW][NW Hacienda] Potato Farm (fields)" Description="Amount of fields you need for full production." Kind="Slider">
+    <SliderDefinition Min="1" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <!-- [OW][NW Hacienda] Grain Farm -->
+  <ModOp Type="merge" GUID="1010262,25128" Path="Values/ModuleOwner/ModuleLimits/Main" ModOpID="SetOWGF" Skip="1">
+    <Limit>5</Limit>
+  </ModOp>
+  <ImyaExpose Path="self::Limit" ModOpID="SetOWGF" ExposeID="[OW][NW Hacienda] Grain Farm (fields)" Description="Amount of fields you need for full production." Kind="Slider">
+    <SliderDefinition Min="1" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <!-- [OW] Hop Farm -->
+  <ModOp Type="merge" GUID="1010264" Path="Values/ModuleOwner/ModuleLimits/Main" ModOpID="SetOWHF" Skip="1">
+    <Limit>5</Limit>
+  </ModOp>
+  <ImyaExpose Path="self::Limit" ModOpID="SetOWHF" ExposeID="[OW] Hop Farm (fields)" Description="Amount of fields you need for full production." Kind="Slider">
+    <SliderDefinition Min="1" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <!-- [OW] Red Pepper Farm -->
+  <ModOp Type="merge" GUID="100654" Path="Values/ModuleOwner/ModuleLimits/Main" ModOpID="SetOWRPF" Skip="1">
+    <Limit>5</Limit>
+  </ModOp>
+  <ImyaExpose Path="self::Limit" ModOpID="SetOWRPF" ExposeID="[OW] Red Pepper Farm (fields)" Description="Amount of fields you need for full production." Kind="Slider">
+    <SliderDefinition Min="1" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <!-- [OW] Vineyard -->
+  <ModOp Type="merge" GUID="100655" Path="Values/ModuleOwner/ModuleLimits/Main" ModOpID="SetOWVineyard" Skip="1">
+    <Limit>5</Limit>
+  </ModOp>
+  <ImyaExpose Path="self::Limit" ModOpID="SetOWVineyard" ExposeID="[OW] Vineyard (fields)" Description="Amount of fields you need for full production." Kind="Slider">
+    <SliderDefinition Min="1" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <!-- [NW] Plantain Plantation -->
+  <ModOp Type="merge" GUID="101263" Path="Values/ModuleOwner/ModuleLimits/Main" ModOpID="SetNWPP" Skip="1">
+    <Limit>5</Limit>
+  </ModOp>
+  <ImyaExpose Path="self::Limit" ModOpID="SetNWPP" ExposeID="[NW] Plantain Plantation (fields)" Description="Amount of fields you need for full production." Kind="Slider">
+    <SliderDefinition Min="1" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <!-- [NW][NW Hacienda] Sugar Cane Plantation -->
+  <ModOp Type="merge" GUID="1010329,24798" Path="Values/ModuleOwner/ModuleLimits/Main" ModOpID="SetNWSCP" Skip="1">
+    <Limit>5</Limit>
+  </ModOp>
+  <ImyaExpose Path="self::Limit" ModOpID="SetNWSCP" ExposeID="[NW][NW Hacienda] Sugar Cane Plantation (fields)" Description="Amount of fields you need for full production." Kind="Slider">
+    <SliderDefinition Min="1" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <!-- [NW] Cotton Plantation -->
+  <ModOp Type="merge" GUID="1010331" Path="Values/ModuleOwner/ModuleLimits/Main" ModOpID="SetNWCP" Skip="1">
+    <Limit>5</Limit>
+  </ModOp>
+  <ImyaExpose Path="self::Limit" ModOpID="SetNWCP" ExposeID="[NW] Cotton Plantation (fields)" Description="Amount of fields you need for full production." Kind="Slider">
+    <SliderDefinition Min="1" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <!-- [NW][NW Hacienda] Caoutchouc Plantation -->
+  <ModOp Type="merge" GUID="1010333,25006" Path="Values/ModuleOwner/ModuleLimits/Main" ModOpID="SetNWCaoutchoucP" Skip="1">
+    <Limit>5</Limit>
+  </ModOp>
+  <ImyaExpose Path="self::Limit" ModOpID="SetNWCaoutchoucP" ExposeID="[NW][NW Hacienda] Caoutchouc Plantation (fields)" Description="Amount of fields you need for full production." Kind="Slider">
+    <SliderDefinition Min="1" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <!-- [NW][NW Hacienda] Corn Farm -->
+  <ModOp Type="merge" GUID="101270,25003" Path="Values/ModuleOwner/ModuleLimits/Main" ModOpID="SetNWCornF" Skip="1">
+    <Limit>5</Limit>
+  </ModOp>
+  <ImyaExpose Path="self::Limit" ModOpID="SetNWCornF" ExposeID="[NW][NW Hacienda] Corn Farm (fields)" Description="Amount of fields you need for full production." Kind="Slider">
+    <SliderDefinition Min="1" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <!-- [NW][NW Hacienda] Coffee Plantation -->
+  <ModOp Type="merge" GUID="101251,25005" Path="Values/ModuleOwner/ModuleLimits/Main" ModOpID="SetNWCoffeeP" Skip="1">
+    <Limit>5</Limit>
+  </ModOp>
+  <ImyaExpose Path="self::Limit" ModOpID="SetNWCoffeeP" ExposeID="[NW][NW Hacienda] Coffee Plantation (fields)" Description="Amount of fields you need for full production." Kind="Slider">
+    <SliderDefinition Min="1" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <!-- [NW] Tobacco Plantation -->
+  <ModOp Type="merge" GUID="1010330" Path="Values/ModuleOwner/ModuleLimits/Main" ModOpID="SetNWTP" Skip="1">
+    <Limit>5</Limit>
+  </ModOp>
+  <ImyaExpose Path="self::Limit" ModOpID="SetNWTP" ExposeID="[NW] Tobacco Plantation (fields)" Description="Amount of fields you need for full production." Kind="Slider">
+    <SliderDefinition Min="1" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <!-- [NW][NW Hacienda] Cocoa Plantation -->
+  <ModOp Type="merge" GUID="1010332,25009" Path="Values/ModuleOwner/ModuleLimits/Main" ModOpID="SetNWCocoaP" Skip="1">
+    <Limit>5</Limit>
+  </ModOp>
+  <ImyaExpose Path="self::Limit" ModOpID="SetNWCocoaP" ExposeID="[NW][NW Hacienda] Cocoa Plantation (fields)" Description="Amount of fields you need for full production." Kind="Slider">
+    <SliderDefinition Min="1" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <!-- [Enbesa] Linseed Farm -->
+  <ModOp Type="merge" GUID="114448" Path="Values/ModuleOwner/ModuleLimits/Main" ModOpID="SetEnbesaLF" Skip="1">
+    <Limit>5</Limit>
+  </ModOp>
+  <ImyaExpose Path="self::Limit" ModOpID="SetEnbesaLF" ExposeID="[Enbesa] Linseed Farm (fields)" Description="Amount of fields you need for full production." Kind="Slider">
+    <SliderDefinition Min="1" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <!-- [Enbesa] Hibiscus Farm -->
+  <ModOp Type="merge" GUID="114447" Path="Values/ModuleOwner/ModuleLimits/Main" ModOpID="SetEnbesaHF" Skip="1">
+    <Limit>5</Limit>
+  </ModOp>
+  <ImyaExpose Path="self::Limit" ModOpID="SetEnbesaHF" ExposeID="[Enbesa] Hibiscus Farm (fields)" Description="Amount of fields you need for full production." Kind="Slider">
+    <SliderDefinition Min="1" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <!-- [Enbesa] Indigo Farm -->
+  <ModOp Type="merge" GUID="114451" Path="Values/ModuleOwner/ModuleLimits/Main" ModOpID="SetEnbesaIF" Skip="1">
+    <Limit>5</Limit>
+  </ModOp>
+  <ImyaExpose Path="self::Limit" ModOpID="SetEnbesaIF" ExposeID="[Enbesa] Indigo Farm (fields)" Description="Amount of fields you need for full production." Kind="Slider">
+    <SliderDefinition Min="1" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <!-- [Enbesa][NW Hacienda] Spice Farm -->
+  <ModOp Type="merge" GUID="114452,25020" Path="Values/ModuleOwner/ModuleLimits/Main" ModOpID="SetEnbesaSF" Skip="1">
+    <Limit>5</Limit>
+  </ModOp>
+  <ImyaExpose Path="self::Limit" ModOpID="SetEnbesaSF" ExposeID="[Enbesa][NW Hacienda] Spice Farm (fields)" Description="Amount of fields you need for full production." Kind="Slider">
+    <SliderDefinition Min="1" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <!-- [Enbesa] Apiary -->
+  <ModOp Type="merge" GUID="114453" Path="Values/ModuleOwner/ModuleLimits/Main" ModOpID="SetEnbesaApiary" Skip="1">
+    <Limit>5</Limit>
+  </ModOp>
+  <ImyaExpose Path="self::Limit" ModOpID="SetEnbesaApiary" ExposeID="[Enbesa] Apiary (fields)" Description="Amount of fields you need for full production." Kind="Slider">
+    <SliderDefinition Min="1" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <Include File="./crops.imyatweak.include.xml" />
+  <Include File="./crops.include.imyatweak.include.xml" />
+</ModOps>

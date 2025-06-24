@@ -1,0 +1,9 @@
+<ModOps>
+  <ModOp Path="/Values/Powerplant" GUID="5164" Type="Merge">
+    <IndustrializationDistance>1000</IndustrializationDistance>
+  </ModOp>
+  <ModOp Path="/Values/PublicService" GUID="5164" Type="Merge">
+    <FullSatisfactionDistance>1000</FullSatisfactionDistance>
+    <NoSatisfactionDistance>1000</NoSatisfactionDistance>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,4 @@
+<ModOps>
+  <Include File="./animals.include.xml" />
+  <Include File="./crops.include.xml" />
+</ModOps>

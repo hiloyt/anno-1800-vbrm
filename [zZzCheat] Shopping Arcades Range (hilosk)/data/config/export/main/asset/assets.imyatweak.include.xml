@@ -1,0 +1,9 @@
+<ModOps>
+  <ModOp Path="Values/BuffFactory/PublicServiceData" GUID="135103,135187,135188,135189,135190,135105,135121,135120,135122,135123,134631,135191,135192,135193,135194" Type="Merge">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="Values/BuffFactory" GUID="135103,135187,135188,135189,135190,135105,135121,135120,135122,135123,134631,135191,135192,135193,135194" Type="Merge">
+    <ProductionBuffDistance>505</ProductionBuffDistance>
+  </ModOp>
+</ModOps>

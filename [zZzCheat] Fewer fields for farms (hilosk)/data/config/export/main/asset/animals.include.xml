@@ -1,0 +1,61 @@
+<ModOps>
+  <ImyaTweaks Title="Animal farms sliders:" />
+  <!-- [OW] Sheep Farm -->
+  <ModOp Type="merge" GUID="1010267" Path="Values/ModuleOwner/ModuleLimits/Main" ModOpID="SetOWSF" Skip="1">
+    <Limit>1</Limit>
+  </ModOp>
+  <ImyaExpose Path="self::Limit" ModOpID="SetOWSF" ExposeID="[OW] Sheep Farm (fields)" Description="Amount of fields you need for full production." Kind="Slider">
+    <SliderDefinition Min="1" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <!-- [OW] Pig Farm -->
+  <ModOp Type="merge" GUID="1010269" Path="Values/ModuleOwner/ModuleLimits/Main" ModOpID="SetOWPF" Skip="1">
+    <Limit>1</Limit>
+  </ModOp>
+  <ImyaExpose Path="self::Limit" ModOpID="SetOWPF" ExposeID="[OW] Pig Farm (fields)" Description="Amount of fields you need for full production." Kind="Slider">
+    <SliderDefinition Min="1" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <!-- [OW][NW] Cattle Farm -->
+  <ModOp Type="merge" GUID="1010263,101269" Path="Values/ModuleOwner/ModuleLimits/Main" ModOpID="SetCF" Skip="1">
+    <Limit>1</Limit>
+  </ModOp>
+  <ImyaExpose Path="self::Limit" ModOpID="SetCF" ExposeID="[OW][NW] Cattle Farm (fields)" Description="Amount of fields you need for full production." Kind="Slider">
+    <SliderDefinition Min="1" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <!-- [NW] Alpaca Farm -->
+  <ModOp Type="merge" GUID="101272" Path="Values/ModuleOwner/ModuleLimits/Main" ModOpID="SetNWAF" Skip="1">
+    <Limit>1</Limit>
+  </ModOp>
+  <ImyaExpose Path="self::Limit" ModOpID="SetNWAF" ExposeID="[NW] Alpaca Farm (fields)" Description="Amount of fields you need for full production." Kind="Slider">
+    <SliderDefinition Min="1" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <!-- [Enbesa] Goat Farm -->
+  <ModOp Type="merge" GUID="114456" Path="Values/ModuleOwner/ModuleLimits/Main" ModOpID="SetEnbesaGF" Skip="1">
+    <Limit>1</Limit>
+  </ModOp>
+  <ImyaExpose Path="self::Limit" ModOpID="SetEnbesaGF" ExposeID="[Enbesa] Goat Farm (fields)" Description="Amount of fields you need for full production." Kind="Slider">
+    <SliderDefinition Min="1" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <!-- [Enbesa] Sanga Farm -->
+  <ModOp Type="merge" GUID="114439" Path="Values/ModuleOwner/ModuleLimits/Main" ModOpID="SetEnbesaSF" Skip="1">
+    <Limit>1</Limit>
+  </ModOp>
+  <ImyaExpose Path="self::Limit" ModOpID="SetEnbesaSF" ExposeID="[Enbesa] Sanga Farm (fields)" Description="Amount of fields you need for full production." Kind="Slider">
+    <SliderDefinition Min="1" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <!-- [Arctic] Goose Farm -->
+  <ModOp Type="merge" GUID="112676" Path="Values/ModuleOwner/ModuleLimits/Main" ModOpID="SetArcticGF" Skip="1">
+    <Limit>1</Limit>
+  </ModOp>
+  <ImyaExpose Path="self::Limit" ModOpID="SetArcticGF" ExposeID="[Arctic] Goose Farm (fields)" Description="Amount of fields you need for full production." Kind="Slider">
+    <SliderDefinition Min="1" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <!-- [Arctic] Husky Farm -->
+  <ModOp Type="merge" GUID="112682" Path="Values/ModuleOwner/ModuleLimits/Main" ModOpID="SetArcticHF" Skip="1">
+    <Limit>1</Limit>
+  </ModOp>
+  <ImyaExpose Path="self::Limit" ModOpID="SetArcticHF" ExposeID="[Arctic] Husky Farm (fields)" Description="Amount of fields you need for full production." Kind="Slider">
+    <SliderDefinition Min="1" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <Include File="./animals.imyatweak.include.xml" />
+  <Include File="./animals.include.imyatweak.include.xml" />
+</ModOps>

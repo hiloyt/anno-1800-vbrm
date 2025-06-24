@@ -1,0 +1,22 @@
+<ModOps>
+  <!-- [NW] Fuel Power Plant -->
+  <ModOp Type="Merge" GUID="7399" Path="/Values/Powerplant" ModOpID="SetNWFPPDistance" Skip="1">
+    <IndustrializationDistance>1000</IndustrializationDistance>
+  </ModOp>
+  <ImyaTweaks Title="[NW] Fuel Power Plant sliders:" />
+  <ImyaExpose Path="self::IndustrializationDistance" ModOpID="SetNWFPPDistance" ExposeID="Industrialization" Description="Increasing or decreasing the FULL cover range of the Fuel Power Plant in The New World. Effecting production buildings." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <ModOp Type="Merge" GUID="7399" Path="/Values/PublicService" ModOpID="SetNWFPPNeeds" Skip="1">
+    <FullSatisfactionDistance>1000</FullSatisfactionDistance>
+    <NoSatisfactionDistance>1000</NoSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="SetNWFPPNeeds" ExposeID="Satisfaction FULL" Description="Increasing or decreasing the FULL cover range of the Fuel Power Plant in The New World. Effecting residental buildings." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="SetNWFPPNeeds" ExposeID="Satisfaction NONE" Description="Increasing or decreasing the NONE cover range of the Fuel Power Plant in The New World. Effecting residental buildings." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <Include File="./nw-fpp.imyatweak.include.xml" />
+  <Include File="./nw-fpp.include.imyatweak.include.xml" />
+</ModOps>

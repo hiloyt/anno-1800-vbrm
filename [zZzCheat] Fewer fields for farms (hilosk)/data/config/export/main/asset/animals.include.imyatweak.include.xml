@@ -1,0 +1,26 @@
+<ModOps>
+  <ModOp Path="Values/ModuleOwner/ModuleLimits/Main" GUID="1010267" Type="merge">
+    <Limit>1</Limit>
+  </ModOp>
+  <ModOp Path="Values/ModuleOwner/ModuleLimits/Main" GUID="1010269" Type="merge">
+    <Limit>1</Limit>
+  </ModOp>
+  <ModOp Path="Values/ModuleOwner/ModuleLimits/Main" GUID="1010263,101269" Type="merge">
+    <Limit>1</Limit>
+  </ModOp>
+  <ModOp Path="Values/ModuleOwner/ModuleLimits/Main" GUID="101272" Type="merge">
+    <Limit>1</Limit>
+  </ModOp>
+  <ModOp Path="Values/ModuleOwner/ModuleLimits/Main" GUID="114456" Type="merge">
+    <Limit>1</Limit>
+  </ModOp>
+  <ModOp Path="Values/ModuleOwner/ModuleLimits/Main" GUID="114439" Type="merge">
+    <Limit>1</Limit>
+  </ModOp>
+  <ModOp Path="Values/ModuleOwner/ModuleLimits/Main" GUID="112676" Type="merge">
+    <Limit>1</Limit>
+  </ModOp>
+  <ModOp Path="Values/ModuleOwner/ModuleLimits/Main" GUID="112682" Type="merge">
+    <Limit>1</Limit>
+  </ModOp>
+</ModOps>

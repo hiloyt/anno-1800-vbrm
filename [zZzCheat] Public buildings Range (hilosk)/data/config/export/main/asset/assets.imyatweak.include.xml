@@ -1,0 +1,78 @@
+<ModOps>
+  <ModOp Path="Values/PublicService" GUID="1010372" Type="Merge">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="Values/PublicService" GUID="101257" Type="Merge">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="Values/PublicService" GUID="114518" Type="Merge">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="Values/PublicService" GUID="1010358" Type="Merge">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="Values/PublicService" GUID="1010359" Type="Merge">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="Values/PublicService" GUID="1010360" Type="Merge">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="Values/PublicService" GUID="1010361" Type="Merge">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="Values/PublicService" GUID="1010362" Type="Merge">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="Values/PublicService" GUID="1010365" Type="Merge">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="Values/PublicService" GUID="1010364" Type="Merge">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="Values/PublicService" GUID="118736" Type="Merge">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="Values/PublicService" GUID="101258" Type="Merge">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="Values/PublicService" GUID="114519" Type="Merge">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="Values/PublicService" GUID="114520" Type="Merge">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="Values/PublicService" GUID="114889" Type="Merge">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="Values/BuffFactory/PublicServiceData" GUID="5840" Type="Merge">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="Values/BuffFactory/PublicServiceData" GUID="6264" Type="Merge">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="Values/BuffFactory/PublicServiceData" GUID="6018" Type="Merge">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ModOp Path="Values/PublicService" GUID="101259" Type="Merge">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,12 @@
+<ModOps>
+  <!-- Café -->
+  <ImyaTweaks Title="Café sliders:" />
+  <ModOp Type="Merge" GUID="133350,6138,132753,133347,133348,133349" Path="Values/BuffFactory" ModOpID="SetCafeBuffDistance" Skip="1">
+    <ProductionBuffDistance>505</ProductionBuffDistance>
+  </ModOp>
+  <ImyaExpose Path="self::ProductionBuffDistance" ModOpID="SetCafeBuffDistance" ExposeID="Buff distance" Description="Increasing or decreasing the MAX range of the buff from Café recipes." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <Include File="./cafe.imyatweak.include.xml" />
+  <Include File="./cafe.include.imyatweak.include.xml" />
+</ModOps>

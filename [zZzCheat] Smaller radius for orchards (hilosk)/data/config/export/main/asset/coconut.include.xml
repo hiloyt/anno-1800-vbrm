@@ -1,0 +1,16 @@
+<ModOps>
+  <ImyaTweaks Title="Orchard: Coconut Oil building sliders:" />
+  <!-- Orchard: Coconut Oil -->
+  <ModOp Type="merge" GUID="133004" Path="/Values/FreeAreaProductivity" ModOpID="SetOrchardCO" Skip="1">
+    <NeededAreaPercent>0</NeededAreaPercent>
+    <InfluenceRadius>5</InfluenceRadius>
+  </ModOp>
+  <ImyaExpose Path="self::NeededAreaPercent" ModOpID="SetOrchardCO" ExposeID="Orchard: Coconut Oil (area)" Description="How much free space do trees need (0 means buildings can be next to each other, and e.g. 50 needs at least half of space between them)." Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::InfluenceRadius" ModOpID="SetOrchardCO" ExposeID="Orchard: Coconut Oil (radius)" Description="Increasing or decreasing the range needed for this building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="1" />
+  </ImyaExpose>
+  <Include File="./coconut.imyatweak.include.xml" />
+  <Include File="./coconut.include.imyatweak.include.xml" />
+</ModOps>

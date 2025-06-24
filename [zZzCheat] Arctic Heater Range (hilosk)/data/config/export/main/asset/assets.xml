@@ -1,0 +1,11 @@
+<ModOps>
+  <!-- Arctic Heater -->
+  <ModOp Type="Add" GUID="114751" Path="/Values/HeatProvider" ModOpID="SetArcticHeaterRange" Skip="1">
+    <HeatRange>100</HeatRange>
+  </ModOp>
+  <ImyaTweaks Title="Arctic Heater sliders:" />
+  <ImyaExpose Path="self::HeatRange" ModOpID="SetArcticHeaterRange" ExposeID="Arctic Heater" Description="Increasing or decreasing the range of the Arctic Heater." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <Include File="./assets.imyatweak.include.xml" />
+</ModOps>

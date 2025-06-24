@@ -1,0 +1,22 @@
+<ModOps>
+  <ImyaTweaks Title="Hacienda sliders:" />
+  <!-- Hacienda Radius -->
+  <ModOp Type="Add" GUID="24768" Path="/Values/Hacienda" ModOpID="SetHaciendaRadius" Skip="1">
+    <HaciendaRadius>50</HaciendaRadius>
+  </ModOp>
+  <ImyaExpose Path="self::HaciendaRadius" ModOpID="SetHaciendaRadius" ExposeID="Hacienda radius" Description="Increasing or decreasing the radius of the main Hacienda building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <!-- Hacienda Satisfaction -->
+  <ModOp Type="Add" GUID="24768" Path="Values/PublicService" ModOpID="SetHaciendaSatisfaction" Skip="1">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="SetHaciendaSatisfaction" ExposeID="Hacienda FULL" Description="Increasing or decreasing the max Satisfaction road cover range (green) of the Hacienda building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="SetHaciendaSatisfaction" ExposeID="Hacienda NONE" Description="Increasing or decreasing the min Satisfaction road cover range (pale green) of the Hacienda building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <Include File="./assets.imyatweak.include.xml" />
+</ModOps>

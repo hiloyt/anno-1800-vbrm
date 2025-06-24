@@ -1,0 +1,15 @@
+<ModOps>
+  <!-- Palace and modules -->
+  <ModOp Type="Merge" GUID="249947" Path="/Values/Palace" ModOpID="SetPalace" Skip="1">
+    <BaseStreetRange>80</BaseStreetRange>
+    <AdditionalStreetRangePerModule>5</AdditionalStreetRangePerModule>
+  </ModOp>
+  <ImyaTweaks Title="Palace sliders:" />
+  <ImyaExpose Path="self::BaseStreetRange" ModOpID="SetPalace" ExposeID="Palace range" Description="Increasing or decreasing the range of the main Palace building." Kind="Slider">
+    <SliderDefinition Min="0" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::AdditionalStreetRangePerModule" ModOpID="SetPalace" ExposeID="Modules range" Description="Increasing or decreasing the range of Palace modules." Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="5" />
+  </ImyaExpose>
+  <Include File="./assets.imyatweak.include.xml" />
+</ModOps>

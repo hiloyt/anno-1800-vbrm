@@ -1,0 +1,7 @@
+<ModOps>
+  <Include File="./ow-opp.include.xml" />
+  <Include File="./ow-gfpp.include.xml" />
+  <Include File="./nw-ps.include.xml" />
+  <Include File="./nw-fpp.include.xml" />
+  <Include File="./nw-dam.include.xml" />
+</ModOps>

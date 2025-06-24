@@ -1,0 +1,6 @@
+<ModOps>
+  <Include File="./coal.include.xml" />
+  <Include File="./hunting.include.xml" />
+  <Include File="./oilpress.include.xml" />
+  <Include File="./wood.include.xml" />
+</ModOps>

@@ -1,0 +1,12 @@
+<ModOps>
+  <!-- The Iron Tower -->
+  <ImyaTweaks Title="The Iron Tower sliders:" />
+  <ModOp Type="add" GUID="133928,133930,133931,133932,133933" Path="Values/BuffFactory" ModOpID="SetTITBuffDistance" Skip="1">
+    <ProductionBuffDistance>505</ProductionBuffDistance>
+  </ModOp>
+  <ImyaExpose Path="self::ProductionBuffDistance" ModOpID="SetTITBuffDistance" ExposeID="Buff distance" Description="Increasing or decreasing the MAX range of the buff from The Iron Tower recipes." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <Include File="./irontower.imyatweak.include.xml" />
+  <Include File="./irontower.include.imyatweak.include.xml" />
+</ModOps>

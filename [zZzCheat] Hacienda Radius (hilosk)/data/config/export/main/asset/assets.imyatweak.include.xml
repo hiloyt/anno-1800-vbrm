@@ -1,0 +1,9 @@
+<ModOps>
+  <ModOp Path="/Values/Hacienda" GUID="24768" Type="Add">
+    <HaciendaRadius>50</HaciendaRadius>
+  </ModOp>
+  <ModOp Path="Values/PublicService" GUID="24768" Type="Add">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+</ModOps>

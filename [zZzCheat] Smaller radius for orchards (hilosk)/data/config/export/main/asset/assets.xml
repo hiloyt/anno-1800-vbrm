@@ -1,0 +1,9 @@
+<ModOps>
+  <Include File="./wax.include.xml" />
+  <Include File="./cherry.include.xml" />
+  <Include File="./cinnamon.include.xml" />
+  <Include File="./citrus.include.xml" />
+  <Include File="./coconut.include.xml" />
+  <Include File="./jam.include.xml" />
+  <Include File="./resin.include.xml" />
+</ModOps>

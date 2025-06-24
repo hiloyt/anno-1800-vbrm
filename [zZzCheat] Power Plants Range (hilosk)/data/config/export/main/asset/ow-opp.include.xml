@@ -1,0 +1,22 @@
+<ModOps>
+  <!-- [OW] Oil Power Plant -->
+  <ModOp Type="Merge" GUID="100780" Path="/Values/Powerplant" ModOpID="SetOWOPPDistance" Skip="1">
+    <IndustrializationDistance>1000</IndustrializationDistance>
+  </ModOp>
+  <ImyaTweaks Title="[OW] Oil Power Plant sliders:" />
+  <ImyaExpose Path="self::IndustrializationDistance" ModOpID="SetOWOPPDistance" ExposeID="Industrialization" Description="Increasing or decreasing the FULL cover range of the Oil Power Plant in The Old World. Effecting production buildings." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <ModOp Type="Add" GUID="100780" Path="/Values/PublicService" ModOpID="SetOWOPPNeeds" Skip="1">
+    <FullSatisfactionDistance>1000</FullSatisfactionDistance>
+    <NoSatisfactionDistance>1000</NoSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="SetOWOPPNeeds" ExposeID="Satisfaction FULL" Description="Increasing or decreasing the FULL cover range of the Oil Power Plant in The Old World. Effecting residental buildings." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="SetOWOPPNeeds" ExposeID="Satisfaction NONE" Description="Increasing or decreasing the NONE cover range of the Oil Power Plant in The Old World. Effecting residental buildings." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <Include File="./ow-opp.imyatweak.include.xml" />
+  <Include File="./ow-opp.include.imyatweak.include.xml" />
+</ModOps>

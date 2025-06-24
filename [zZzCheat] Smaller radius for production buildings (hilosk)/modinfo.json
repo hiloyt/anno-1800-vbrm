@@ -1,0 +1,49 @@
+{
+    "Version": "1.1.5",
+    "ModID": "Smaller_Radius_For_Production_Buildings",
+    "IncompatibleIds": null,
+    "ModDependencies": null,
+    "Category": {
+      "Chinese": null,
+      "English": "Cheat",
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    },
+    "ModName": {
+      "Chinese": null,
+      "English": "Smaller radius for production buildings (hilosk)",
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    },
+    "Description": {
+      "Chinese": null,
+      "English": "Cut down the needed radius for some production buildings (radius 5). Lumberjack's Huts/Wanza Woodcutters can be placed next to each other without losing productivity.",
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    },
+    "KnownIssues": null,
+    "CreatorName": "hilosk",
+    "CreatorContact": "https://www.nexusmods.com/users/941705",
+    "Image" : null
+  }

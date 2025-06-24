@@ -1,0 +1,14 @@
+<ModOps>
+  <ModOp Path="Values/ItemContainer" GUID="3761" Type="Merge">
+    <SocketScopeRadius>250</SocketScopeRadius>
+    <SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>
+  </ModOp>
+  <ModOp Path="Values/ItemContainer" GUID="3741" Type="Merge">
+    <SocketScopeRadius>250</SocketScopeRadius>
+    <SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>
+  </ModOp>
+  <ModOp Path="Values/ItemContainer" GUID="4260" Type="Merge">
+    <SocketScopeRadius>250</SocketScopeRadius>
+    <SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>
+  </ModOp>
+</ModOps>

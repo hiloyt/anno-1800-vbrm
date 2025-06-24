@@ -1,0 +1,30 @@
+<ModOps>
+  <ImyaTweaks Title="Post Office sliders:" />
+  <!-- [NW] Post Office -->
+  <ModOp Type="Merge" GUID="3761" Path="Values/ItemContainer" ModOpID="SetNWPORadius" Skip="1">
+    <SocketScopeRadius>250</SocketScopeRadius>
+    <SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>
+  </ModOp>
+  <ImyaExpose Path="self::SocketScopeRadius" ModOpID="SetNWPORadius" ExposeID="[NW] Post Office" Description="Increasing or decreasing the range of the Post Office in The New World." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <!-- [OW] Post Office -->
+  <ModOp Type="Merge" GUID="3741" Path="Values/ItemContainer" ModOpID="SetOWPORadius" Skip="1">
+    <SocketScopeRadius>250</SocketScopeRadius>
+    <SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>
+  </ModOp>
+  <ImyaTweaks Title="[OW] Post Office sliders:" />
+  <ImyaExpose Path="self::SocketScopeRadius" ModOpID="SetOWPORadius" ExposeID="[OW] Post Office" Description="Increasing or decreasing the range of the Post Office in The Old World." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <!-- [Arctic] Post Office -->
+  <ModOp Type="Merge" GUID="4260" Path="Values/ItemContainer" ModOpID="SetArcticPORadius" Skip="1">
+    <SocketScopeRadius>250</SocketScopeRadius>
+    <SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>
+  </ModOp>
+  <ImyaTweaks Title="[Arctic] Post Office sliders:" />
+  <ImyaExpose Path="self::SocketScopeRadius" ModOpID="SetArcticPORadius" ExposeID="[Arctic] Post Office" Description="Increasing or decreasing the range of the Post Office in The Arctic." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <Include File="./assets.imyatweak.include.xml" />
+</ModOps>

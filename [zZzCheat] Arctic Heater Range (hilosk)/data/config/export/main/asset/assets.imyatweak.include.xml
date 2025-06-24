@@ -1,0 +1,5 @@
+<ModOps>
+  <ModOp Path="/Values/HeatProvider" GUID="114751" Type="Add">
+    <HeatRange>100</HeatRange>
+  </ModOp>
+</ModOps>

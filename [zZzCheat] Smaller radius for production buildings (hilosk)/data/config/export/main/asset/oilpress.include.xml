@@ -1,0 +1,16 @@
+<ModOps>
+  <ImyaTweaks Title="Industrial Oil Press sliders:" />
+  <!-- [NW] Industrial Oil Press -->
+  <ModOp Type="merge" GUID="1418" Path="/Values/FreeAreaProductivity" ModOpID="SetIOP" Skip="1">
+    <NeededAreaPercent>0</NeededAreaPercent>
+    <InfluenceRadius>5</InfluenceRadius>
+  </ModOp>
+  <ImyaExpose Path="self::NeededAreaPercent" ModOpID="SetIOP" ExposeID="[NW] Industrial Oil Press (area)" Description="How much free space do trees need (0 means buildings can be next to each other, and e.g. 50 needs at least half of space between them)." Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::InfluenceRadius" ModOpID="SetIOP" ExposeID="[NW] Industrial Oil Press (radius)" Description="Increasing or decreasing the range needed for this building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="1" />
+  </ImyaExpose>
+  <Include File="./oilpress.imyatweak.include.xml" />
+  <Include File="./oilpress.include.imyatweak.include.xml" />
+</ModOps>

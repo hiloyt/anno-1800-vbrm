@@ -1,0 +1,38 @@
+<ModOps>
+  <ImyaTweaks Title="Charcoal Kiln sliders:" />
+  <!-- [OW] Charcoal Kiln -->
+  <ModOp Type="merge" GUID="1010298" Path="/Values/FreeAreaProductivity" ModOpID="SetOWCK" Skip="1">
+    <NeededAreaPercent>0</NeededAreaPercent>
+    <InfluenceRadius>5</InfluenceRadius>
+  </ModOp>
+  <ImyaExpose Path="self::NeededAreaPercent" ModOpID="SetOWCK" ExposeID="[OW] Charcoal Kiln (area)" Description="How much free space do trees need (0 means buildings can be next to each other, and e.g. 50 needs at least half of space between them)." Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::InfluenceRadius" ModOpID="SetOWCK" ExposeID="[OW] Charcoal Kiln (radius)" Description="Increasing or decreasing the range needed for this building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="1" />
+  </ImyaExpose>
+  <!-- [NW] Charcoal Kiln -->
+  <ModOp Type="merge" GUID="24860,2396,1345" Path="/Values/FreeAreaProductivity" ModOpID="SetNWCK" Skip="1">
+    <NeededAreaPercent>0</NeededAreaPercent>
+    <InfluenceRadius>5</InfluenceRadius>
+  </ModOp>
+  <ImyaExpose Path="self::NeededAreaPercent" ModOpID="SetNWCK" ExposeID="[NW] Charcoal Kiln (area)" Description="How much free space do trees need (0 means buildings can be next to each other, and e.g. 50 needs at least half of space between them)." Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::InfluenceRadius" ModOpID="SetNWCK" ExposeID="[NW] Charcoal Kiln (radius)" Description="Increasing or decreasing the range needed for this building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="1" />
+  </ImyaExpose>
+  <!-- [Arctic] Charcoal Kiln -->
+  <ModOp Type="merge" GUID="114705" Path="/Values/FreeAreaProductivity" ModOpID="SetArcticCK" Skip="1">
+    <NeededAreaPercent>0</NeededAreaPercent>
+    <InfluenceRadius>5</InfluenceRadius>
+  </ModOp>
+  <ImyaExpose Path="self::NeededAreaPercent" ModOpID="SetArcticCK" ExposeID="[Arctic] Charcoal Kiln (area)" Description="How much free space do trees need (0 means buildings can be next to each other, and e.g. 50 needs at least half of space between them)." Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::InfluenceRadius" ModOpID="SetArcticCK" ExposeID="[Arctic] Charcoal Kiln (radius)" Description="Increasing or decreasing the range needed for this building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="1" />
+  </ImyaExpose>
+  <Include File="./coal.imyatweak.include.xml" />
+  <Include File="./coal.include.imyatweak.include.xml" />
+</ModOps>

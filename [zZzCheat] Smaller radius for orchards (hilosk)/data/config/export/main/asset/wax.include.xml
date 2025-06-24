@@ -1,0 +1,16 @@
+<ModOps>
+  <ImyaTweaks Title="Orchard: Camphor Wax building sliders:" />
+  <!-- [OW] Orchard: Camphor Wax -->
+  <ModOp Type="merge" GUID="134614" Path="/Values/FreeAreaProductivity" ModOpID="SetOrchardCW" Skip="1">
+    <NeededAreaPercent>0</NeededAreaPercent>
+    <InfluenceRadius>5</InfluenceRadius>
+  </ModOp>
+  <ImyaExpose Path="self::NeededAreaPercent" ModOpID="SetOrchardCW" ExposeID="rchard: Camphor Wax (area)" Description="How much free space do trees need (0 means buildings can be next to each other, and e.g. 50 needs at least half of space between them)." Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::InfluenceRadius" ModOpID="SetOrchardCW" ExposeID="Orchard: Camphor Wax (radius)" Description="Increasing or decreasing the range needed for this building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="1" />
+  </ImyaExpose>
+  <Include File="./wax.imyatweak.include.xml" />
+  <Include File="./wax.include.imyatweak.include.xml" />
+</ModOps>

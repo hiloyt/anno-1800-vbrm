@@ -1,0 +1,16 @@
+<ModOps>
+  <ImyaTweaks Title="Orchard: Resin building sliders:" />
+  <!-- Orchard: Resin -->
+  <ModOp Type="merge" GUID="135085" Path="/Values/FreeAreaProductivity" ModOpID="SetOrchardResin" Skip="1">
+    <NeededAreaPercent>0</NeededAreaPercent>
+    <InfluenceRadius>5</InfluenceRadius>
+  </ModOp>
+  <ImyaExpose Path="self::NeededAreaPercent" ModOpID="SetOrchardResin" ExposeID="Orchard: Resin (area)" Description="How much free space do trees need (0 means buildings can be next to each other, and e.g. 50 needs at least half of space between them)." Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::InfluenceRadius" ModOpID="SetOrchardResin" ExposeID="Orchard: Resin (radius)" Description="Increasing or decreasing the range needed for this building." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="1" />
+  </ImyaExpose>
+  <Include File="./resin.imyatweak.include.xml" />
+  <Include File="./resin.include.imyatweak.include.xml" />
+</ModOps>

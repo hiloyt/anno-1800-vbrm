@@ -1,0 +1,59 @@
+<ModOps>
+  <ModOp Path="/Values/ModuleOwnerUpgrade/ModuleLimitPercent" GUID="269980" Type="replace">
+    <ModuleLimitPercent>0</ModuleLimitPercent>
+  </ModOp>
+  <ModOp Path="Values/ModuleOwner/ModuleLimits/Main" GUID="1010265,25019" Type="merge">
+    <Limit>5</Limit>
+  </ModOp>
+  <ModOp Path="Values/ModuleOwner/ModuleLimits/Main" GUID="1010262,25128" Type="merge">
+    <Limit>5</Limit>
+  </ModOp>
+  <ModOp Path="Values/ModuleOwner/ModuleLimits/Main" GUID="1010264" Type="merge">
+    <Limit>5</Limit>
+  </ModOp>
+  <ModOp Path="Values/ModuleOwner/ModuleLimits/Main" GUID="100654" Type="merge">
+    <Limit>5</Limit>
+  </ModOp>
+  <ModOp Path="Values/ModuleOwner/ModuleLimits/Main" GUID="100655" Type="merge">
+    <Limit>5</Limit>
+  </ModOp>
+  <ModOp Path="Values/ModuleOwner/ModuleLimits/Main" GUID="101263" Type="merge">
+    <Limit>5</Limit>
+  </ModOp>
+  <ModOp Path="Values/ModuleOwner/ModuleLimits/Main" GUID="1010329,24798" Type="merge">
+    <Limit>5</Limit>
+  </ModOp>
+  <ModOp Path="Values/ModuleOwner/ModuleLimits/Main" GUID="1010331" Type="merge">
+    <Limit>5</Limit>
+  </ModOp>
+  <ModOp Path="Values/ModuleOwner/ModuleLimits/Main" GUID="1010333,25006" Type="merge">
+    <Limit>5</Limit>
+  </ModOp>
+  <ModOp Path="Values/ModuleOwner/ModuleLimits/Main" GUID="101270,25003" Type="merge">
+    <Limit>5</Limit>
+  </ModOp>
+  <ModOp Path="Values/ModuleOwner/ModuleLimits/Main" GUID="101251,25005" Type="merge">
+    <Limit>5</Limit>
+  </ModOp>
+  <ModOp Path="Values/ModuleOwner/ModuleLimits/Main" GUID="1010330" Type="merge">
+    <Limit>5</Limit>
+  </ModOp>
+  <ModOp Path="Values/ModuleOwner/ModuleLimits/Main" GUID="1010332,25009" Type="merge">
+    <Limit>5</Limit>
+  </ModOp>
+  <ModOp Path="Values/ModuleOwner/ModuleLimits/Main" GUID="114448" Type="merge">
+    <Limit>5</Limit>
+  </ModOp>
+  <ModOp Path="Values/ModuleOwner/ModuleLimits/Main" GUID="114447" Type="merge">
+    <Limit>5</Limit>
+  </ModOp>
+  <ModOp Path="Values/ModuleOwner/ModuleLimits/Main" GUID="114451" Type="merge">
+    <Limit>5</Limit>
+  </ModOp>
+  <ModOp Path="Values/ModuleOwner/ModuleLimits/Main" GUID="114452,25020" Type="merge">
+    <Limit>5</Limit>
+  </ModOp>
+  <ModOp Path="Values/ModuleOwner/ModuleLimits/Main" GUID="114453" Type="merge">
+    <Limit>5</Limit>
+  </ModOp>
+</ModOps>

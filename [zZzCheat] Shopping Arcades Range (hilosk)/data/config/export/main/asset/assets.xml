@@ -1,0 +1,21 @@
+<ModOps>
+  <!-- Department Store, Furniture Store, Drug Store -->
+  <ImyaTweaks Title="Shopping Arcades sliders:" />
+  <ModOp Type="Merge" GUID="135103,135187,135188,135189,135190,135105,135121,135120,135122,135123,134631,135191,135192,135193,135194" Path="Values/BuffFactory/PublicServiceData" ModOpID="SetSANeeds" Skip="1">
+    <FullSatisfactionDistance>500</FullSatisfactionDistance>
+    <NoSatisfactionDistance>505</NoSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="SetSANeeds" ExposeID="Satisfaction FULL" Description="Increasing or decreasing the FULL cover range of the Shopping Arcades recipes. Effecting residental buildings (needs)." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="SetSANeeds" ExposeID="Satisfaction NONE" Description="Increasing or decreasing the NONE cover range of the Shopping Arcades recipes. Effecting residental buildings (needs)." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <ModOp Type="Merge" GUID="135103,135187,135188,135189,135190,135105,135121,135120,135122,135123,134631,135191,135192,135193,135194" Path="Values/BuffFactory" ModOpID="SetSADistance" Skip="1">
+    <ProductionBuffDistance>505</ProductionBuffDistance>
+  </ModOp>
+  <ImyaExpose Path="self::ProductionBuffDistance" ModOpID="SetSADistance" ExposeID="Buff distance" Description="Increasing or decreasing the MAX range of the buff from Shopping Arcades recipes." Kind="Slider">
+    <SliderDefinition Min="5" Max="1000" Stepping="5" />
+  </ImyaExpose>
+  <Include File="./assets.imyatweak.include.xml" />
+</ModOps>
